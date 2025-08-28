@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-28T23:24:05 IST" name="MySuite" finished-at="2025-08-28T23:24:40 IST" duration-ms="34999">
+    <groups>
+      <group name="reset">
+        <method signature="UserSignUP.userSignup()[pri:0, instance:Testcases.UserSignUP@25ce9dc4]" name="userSignup" class="Testcases.UserSignUP"/>
+      </group> <!-- reset -->
+      <group name="Smoke">
+        <method signature="ProductAddInCart.ProductPagehasAllProduct()[pri:0, instance:Testcases.ProductAddInCart@537f60bf]" name="ProductPagehasAllProduct" class="Testcases.ProductAddInCart"/>
+        <method signature="UserLogin.userAtLogin()[pri:0, instance:Testcases.UserLogin@5d0bf09b]" name="userAtLogin" class="Testcases.UserLogin"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2025-08-28T23:24:05 IST" name="User SignUp functionality" finished-at="2025-08-28T23:24:24 IST" duration-ms="19364">
+      <class name="Testcases.UserSignUP">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Testcases.UserSignUP@25ce9dc4]" started-at="2025-08-28T23:24:05 IST" name="setup" finished-at="2025-08-28T23:24:08 IST" duration-ms="2825" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupMethod()[pri:0, instance:Testcases.UserSignUP@25ce9dc4]" started-at="2025-08-28T23:24:08 IST" name="setupMethod" finished-at="2025-08-28T23:24:09 IST" duration-ms="1271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method signature="userSignup()[pri:0, instance:Testcases.UserSignUP@25ce9dc4]" started-at="2025-08-28T23:24:09 IST" name="userSignup" finished-at="2025-08-28T23:24:24 IST" duration-ms="14591" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userSignup -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:Testcases.UserSignUP@25ce9dc4]" started-at="2025-08-28T23:24:24 IST" name="tearDownMethod" finished-at="2025-08-28T23:24:24 IST" duration-ms="84" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcases.UserSignUP@25ce9dc4]" started-at="2025-08-28T23:24:24 IST" name="teardown" finished-at="2025-08-28T23:24:24 IST" duration-ms="273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Testcases.UserSignUP -->
+    </test> <!-- User SignUp functionality -->
+    <test started-at="2025-08-28T23:24:05 IST" name="Product adding to cart" finished-at="2025-08-28T23:24:40 IST" duration-ms="34999">
+      <class name="Testcases.ProductAddInCart">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Testcases.ProductAddInCart@537f60bf]" started-at="2025-08-28T23:24:05 IST" name="setup" finished-at="2025-08-28T23:24:08 IST" duration-ms="2937" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupMethod()[pri:0, instance:Testcases.ProductAddInCart@537f60bf]" started-at="2025-08-28T23:24:08 IST" name="setupMethod" finished-at="2025-08-28T23:24:13 IST" duration-ms="5543" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method signature="ProductPagehasAllProduct()[pri:0, instance:Testcases.ProductAddInCart@537f60bf]" started-at="2025-08-28T23:24:13 IST" name="ProductPagehasAllProduct" finished-at="2025-08-28T23:24:39 IST" duration-ms="25771" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductPagehasAllProduct -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:Testcases.ProductAddInCart@537f60bf]" started-at="2025-08-28T23:24:39 IST" name="tearDownMethod" finished-at="2025-08-28T23:24:39 IST" duration-ms="156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcases.ProductAddInCart@537f60bf]" started-at="2025-08-28T23:24:39 IST" name="teardown" finished-at="2025-08-28T23:24:40 IST" duration-ms="394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Testcases.ProductAddInCart -->
+    </test> <!-- Product adding to cart -->
+  </suite> <!-- MySuite -->
+</testng-results>
